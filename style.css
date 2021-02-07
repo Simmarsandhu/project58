@@ -84,3 +84,17 @@ button {
     font-size: 20px;
     font-family: 'Lemonada', cursive;
 }
+.edit{
+
+    width:300px;
+    height:400px;
+    transition: transform .2s;
+    border-width: 5px;
+    border-style:double;
+        border-color:black;
+    padding:20px;
+    
+}
+.edit:hover{
+    transform: scale(0.9)
+}
