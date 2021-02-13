@@ -38,6 +38,11 @@ html {
 
 ul {
 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
     list-style: none;
     cursor: pointer;
     color: black;
@@ -47,16 +52,17 @@ ul {
     position: fixed;
 }
 
-.link {
+li{
     float: left;
-    font-size: 20px;
-    padding: 10px;
-    display: block;
-    text-decoration: none;
-    text-decoration-line:
-        none;
 }
-
+li a {
+ 
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
 .link:hover {
     background-color: red;
@@ -97,4 +103,9 @@ button {
 }
 .edit:hover{
     transform: scale(0.9)
+}
+#color{
+    background-color:deeppink;
+    font-family: cursive;
+    color:darkorange;
 }
